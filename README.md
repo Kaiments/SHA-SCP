@@ -12,25 +12,17 @@ This repo is the official implementation for A UI element spatial hierarchy awar
 
 ## 3.1 Training & Testing
 
-- Change the config depending on what you want
+You can modify the hyperparameters of model training in the train_eval.py file
 ```python
 cd ..
-# run on the PAMAP2
-python main.py --dataset pamap
-# run on the OPPORTUNITY
-python main.py --dataset opp
-# change the learning rate
-python main.py --lr 0.0001
-# change the batch size
-python main.py --batch_size 64
+# run the train and evaluation
+python train_eval.py
+# run the test
+python test.py
 ```
 
-# 4 Acknowledgements
-This repo is based on [MCD_DA](https://github.com/mil-tokyo/MCD_DA). Great thanks to the original authors for their work!
- 
- 
-# 5 Citation
+# 4 Citation
 
 Please cite this work if you find it useful.
 
-If you have any question, feel free to contact: `shmiao@zju.edu.cn`
+If you have any question, feel free to contact: `kaiqian@zju.edu.cn`
