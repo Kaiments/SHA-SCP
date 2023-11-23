@@ -1,5 +1,5 @@
 # 1 SHA-SCP
-This repo is the official implementation for A UI element spatial hierarchy aware smartphone user click behavior prediction method
+This repo is the official implementation for SHA-SCP: A UI Element Spatial Hierarchy Aware Smartphone User Click Behavior Prediction Method
 ## 1.1 The framework of SHA-SCP
 ![Example Image](./SHA-SCP-frame.jpg)
 
